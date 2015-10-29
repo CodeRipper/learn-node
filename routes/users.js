@@ -1,7 +1,6 @@
 var express = require('express');
 var router = express.Router();
 var user = require('../models/user');
-var userDao = require('../dao/userDao');
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
@@ -24,7 +23,7 @@ router.get('/', function(req, res, next) {
     res.render('user', model);
   }
 
-  userDao.getUsers(loadUsers);
+  user.getUsers(loadUsers);
 });
 
 module.exports = router;

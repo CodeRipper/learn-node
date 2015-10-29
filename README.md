@@ -12,6 +12,10 @@ search engine of html5 video from popular sites.
 }
 ```
 * 2.execute sql/code_ripper.sql
+* 3.install dependencies
+```shell
+$ npm install
+```
 * 3.use the cmd to start server
 ```shell
 $ set DEBUG=video-map:* & npm start
