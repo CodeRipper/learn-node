@@ -1,4 +1,5 @@
 # common
 .idea/
+node_modules/
 *.iml
 *.log
