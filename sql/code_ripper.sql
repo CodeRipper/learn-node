@@ -12,8 +12,6 @@ File Encoding         : 65001
 
 Date: 2015-10-29 11:41:34
 */
-CREATE DATABASE IF NOT EXISTS `code_ripper`;
-
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
