@@ -1,0 +1,46 @@
+extends layout
+
+block content
+  h1= title
+  table(width='100%')
+    tr
+      th aid
+      th copyright
+      th typeid
+      th typename
+      th title
+      th subtitle
+      th play
+      th review
+      th video_review
+      th favorites
+      th mid
+      th author
+      th description
+      th create
+      th pic
+      th credit
+      th coins
+      th duration
+      th comment
+    for v in videos
+      tr
+        td #{v.aid}
+        td #{v.copyright}
+        td #{v.typeid}
+        td #{v.typename}
+        td: a(href='video/show/#{v.aid}') #{v.title}
+        td #{v.subtitle}
+        td #{v.play}
+        td #{v.review}
+        td #{v.video_review}
+        td #{v.favorites}
+        td #{v.mid}
+        td #{v.author}
+        td #{v.description}
+        td #{v.create}
+        td: img(src='#{v.pic}' width='50')
+        td #{v.credit}
+        td #{v.coins}
+        td #{v.duration}
+        td #{v.comment}
