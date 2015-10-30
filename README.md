@@ -2,7 +2,7 @@
 search engine of html5 video from popular sites.
 
 ###prepare
-* create prop.json file for mysql settings, and put it to `/data` directory (on windows eq: `D:\data`)
+create prop.json file for mysql settings, and put it to `/data` directory (on windows eq: `D:\data`)
 ```json
 {
   "user": "your_user_name",
@@ -11,16 +11,16 @@ search engine of html5 video from popular sites.
   "database": "code_ripper"
 }
 ```
-* execute sql/code_ripper.sql
+execute sql/code_ripper.sql
 ```shell
 $ mysql -u [uname] -p code_ripper < code_ripper.sql
 ```
-* install dependencies
+install dependencies
 ```shell
 $ npm install
 ```
-* use the cmd to start server
+use the cmd to start server
 ```shell
 $ set DEBUG=video-map:* & npm start
 ```
-* Then load http://localhost:3000/ in your browser to access the app.
+Then load http://localhost:3000/ in your browser to access the app.
