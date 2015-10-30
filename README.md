@@ -13,7 +13,7 @@ search engine of html5 video from popular sites.
 ```
 * execute sql/code_ripper.sql
 ```shell
-$ mysqldump -u [uname] -p code_ripper < code_ripper.sql
+$ mysql -u [uname] -p code_ripper < code_ripper.sql
 ```
 * install dependencies
 ```shell
