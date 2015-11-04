@@ -1,8 +1,8 @@
-# video-map
+# video-map (deprecated)
 search engine of html5 video from popular sites.
 
 ###prepare
-create prop.json file for mysql settings, and put it to `/data` directory (on windows eq: `D:\data`)
+create prop.json file for mysql settings, and put it to `/data` directory (on windows: `D:\data`)
 ```json
 {
   "user": "your_user_name",
