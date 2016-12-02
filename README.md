@@ -1,5 +1,5 @@
 # learn-node (deprecated)
-simple example with node, use express and mysql
+simple example with node, using express and mysql
 
 ###prepare
 create prop.json file for mysql settings, and put it to `/data` directory (on windows: `D:\data`)
