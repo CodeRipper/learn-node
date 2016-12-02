@@ -1,4 +1,4 @@
-# learn-node (deprecated)
+# learn-node
 simple example with node, using express and mysql
 
 ###prepare
